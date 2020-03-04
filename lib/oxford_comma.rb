@@ -7,7 +7,7 @@ def oxford_comma(array)
   end
   s = array[0..-2].join(" ")
   s << " and "+array[-1]
-  #binding.pry
+  binding.pry
 end
 
 a = ["kiwi"]
