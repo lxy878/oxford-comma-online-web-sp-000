@@ -5,6 +5,10 @@ def oxford_comma(array)
   if array[-2].nil?
     return array.join
   end
+  s = []
+  if array[0]==array[-2]
+
+  else
   s = array[0..-2].join(", ")
   s << ", and "+array[-1]
   binding.pry
