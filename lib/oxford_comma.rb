@@ -6,9 +6,9 @@ def oxford_comma(array)
     return array.join
   end
   s = array[0..-2].join(", ")
-  s << "and "+array[-1]
+  s << "and " + array[-1]
   binding.pry
-  return 
+  return
 end
 
 a = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
