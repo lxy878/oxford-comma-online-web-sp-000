@@ -8,5 +8,4 @@ def oxford_comma(array)
   s = array[0..-2].join(", ")
   return  array[0]==array[-2]? s << " and "+array[-1] : s << ", and "+array[-1]
   #binding.pry
-  return s
 end
