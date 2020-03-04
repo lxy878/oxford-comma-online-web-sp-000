@@ -1,10 +1,9 @@
 require 'pry'
 
 def oxford_comma(array)
-  l = array.length
-  if l == 1
-    array.join()
 
+  if array[-2].nil?
+    
   end
   #binding.pry
 end
