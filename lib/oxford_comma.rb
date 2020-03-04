@@ -5,9 +5,13 @@ def oxford_comma(array)
   if array[-2].nil?
     return array.join
   end
-  part1 = " and "
+  part1 = "and"
   s = ""
   if array[0]==array[-2]
+
+  end
+  array.each do |word|
+    s << word+" "
   end
   #binding.pry
 end
