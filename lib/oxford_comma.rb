@@ -9,7 +9,7 @@ def oxford_comma(array)
   s << "and "
   s << array[-1]
   binding.pry
-  return
+  return s
 end
 
 a = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
